@@ -15,8 +15,8 @@ You are a junior data analyst working on the marketing analyst team at Cyclistic
 
 ## Approach ⚙️
 ### 1. Ask
-Morena (manager) has assigned you to analyse:
-How do annual members and casual riders use Cyclistic bikes differently?
+Morena (manager) has assigned you to analyse:</br>
+**How do annual members and casual riders use Cyclistic bikes differently?**</br>
 Then produce a report with the following deliverables:
 
 * A clear statement of the business task
@@ -41,8 +41,8 @@ Script:
 ### 3. Process 📲
 Now we can manipulate the data for our analysis. We will do two things with the now combined dataset:
 
-Clean the dataset of null values and inconsistencies.
-Create new values based on available data for insightful analysis.
+1. Clean the dataset of null values and inconsistencies.
+2. Create new values based on available data for insightful analysis.
 
 Script:
 [Data Process](https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/02_Process.r)
@@ -65,12 +65,12 @@ Script:
 ### 5. Share 📨
 We've completed our analysis and we are now ready to share our findings.
 
-We can export our csv file for later use with the following:
+We can export our csv file for later use with the following:</br>
 write.csv(bikedata_2024_clean, 'Bikedata_2024_Clean.csv')
 
 We can use the csv file to create a dashboard in tableau to show our findings to the stakeholders; however, we used R not only to manipulate this large dataset but to also create visualisations for presentation purposes. Having our visualisations neatly labeled with a consistent theme, we can easily compile and present this as a powerpoint.
 
-Our intial task was to analyse: How do annual members and casual riders use Cyclistic bikes differently?
+Our intial task was to analyse: **How do annual members and casual riders use Cyclistic bikes differently?**
 
 During our analysis, we've made a couple observations:
 
@@ -86,10 +86,10 @@ During our analysis, we've made a couple observations:
 4. Annual members have their most used 'Start' and 'End' stations spread, while casual riders use Streeter Dr & Grave Ave as a popular start and end.
 <img width="600" alt="StationPopularity" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot03.png">
 
-5. Casual riders have longer ride lengths on both the higher and lower ends and are overall 5mins longer on average.
+5. Casual riders have longer ride lengths on both the higher and lower ends and are overall five minutes longer on average.
 <img width="600" alt="UserLength" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot04.png">
 
-6. Although ride lengths differ, casual and members ride the similar distances.
+6. Although ride lengths differ, casual and members ride similar distances.
 <img width="600" alt="UserDistance" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot05.png">
 
 7. Cyclistic has far less riders of both types during colder months.

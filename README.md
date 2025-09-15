@@ -75,28 +75,28 @@ Our intial task was to analyse: How do annual members and casual riders use Cycl
 During our analysis, we've made a couple observations:
 
 1. Annual members make up two-thirds of Cyclistic customer base.
-<img width="500" alt="UserDistribution" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot.png">
+<img width="350" alt="UserDistribution" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot.png">
 
 2. Casual riders have a similar preference of bike types to annual members.
-<img width="500" alt="BikePreference" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot01.png">
+<img width="600" alt="BikePreference" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot01.png">
 
 3. Annual members use Cyclistic bikes more during weekdays, whereas casual riders use more over weekends.
-<img width="500" alt="WeekdayDemand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot02.png">
+<img width="600" alt="WeekdayDemand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot02.png">
 
 4. Annual members have their most used 'Start' and 'End' stations spread, while casual riders use Streeter Dr & Grave Ave as a popular start and end.
 <img width="600" alt="StationPopularity" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot03.png">
 
 5. Casual riders have longer ride lengths on both the higher and lower ends and are overall 5mins longer on average.
-<img width="500" alt="UserLength" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot04.png">
+<img width="600" alt="UserLength" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot04.png">
 
 6. Although ride lengths differ, casual and members ride the similar distances.
-<img width="500" alt="UserDistance" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot05.png">
+<img width="600" alt="UserDistance" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot05.png">
 
 7. Cyclistic has far less riders of both types during colder months.
-<img width="500" alt="2024Demand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot06.png">
+<img width="600" alt="2024Demand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot06.png">
 
 8. Casual riders steadly use bikes more over the course of the day, but there is a sharp influx of member riders between 5-8am and 2-5pm.
-<img width="500" alt="24hDemand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot07.png">
+<img width="600" alt="24hDemand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot07.png">
 
 
 Our key takeaways from these observations are:

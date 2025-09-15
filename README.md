@@ -35,7 +35,7 @@ Approach:
 1. Download and import data January_2024 - December_2024
 2. Combine into one database for 2024
 
-Find the script below:
+Script:
 [Data Preparation](https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/01_Prepare.r)
 
 ### 3. Process 📲
@@ -44,7 +44,7 @@ Now we can manipulate the data for our analysis. We will do two things with the 
 Clean the dataset of null values and inconsistencies.
 Create new values based on available data for insightful analysis.
 
-Find the script below:
+Script:
 [Data Process](https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/02_Process.r)
 
 ### 4. Analyse 📊
@@ -59,7 +59,7 @@ The dataset is now ready for analysing how annual members and casual riders use 
 * Analyse the bike usage trends of users over the course of a year.
 * Calculate peak times of bike usage over 24h.
 
-Find the script below:
+Script:
 [Data Analysis](https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/03_Analyse.r)
 
 ### 5. Share 📨

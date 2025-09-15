@@ -47,7 +47,7 @@ Create new values based on available data for insightful analysis.
 Find the script below:
 [Data Process](https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/02_Process.r)
 
-### 4. Analyse 🔍
+### 4. Analyse 📊
 The dataset is now ready for analysing how annual members and casual riders use Cyclistic bikes differently, but to draw insightful conclusions we can plan what to do with this data.
 
 * Create a universal theme for visualisations so that when we present our findings it is neat and consistent.
@@ -62,7 +62,7 @@ The dataset is now ready for analysing how annual members and casual riders use 
 Find the script below:
 [Data Analysis](https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/03_Analyse.r)
 
-### 5. Share
+### 5. Share 📨
 We've completed our analysis and we are now ready to share our findings.
 
 #We can export our csv file for later use with the following:
@@ -75,5 +75,45 @@ Our intial task was to analyse: How do annual members and casual riders use Cycl
 During our analysis, we've made a couple observations:
 
 1. Annual members make up two-thirds of Cyclistic customer base.
+<img width="500" alt="UserDistribution" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot.png">
+
+2. Casual riders have a similar preference of bike types to annual members.
+<img width="500" alt="BikePreference" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot01.png">
+
+3. Annual members use Cyclistic bikes more during weekdays, whereas casual riders use more over weekends.
+<img width="500" alt="WeekdayDemand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot02.png">
+
+4. Annual members have their most used 'Start' and 'End' stations spread, while casual riders use Streeter Dr & Grave Ave as a popular start and end.
+<img width="500" alt="StationPopularity" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot03.png">
+
+5. Casual riders have longer ride lengths on both the higher and lower ends and are overall 5mins longer on average.
+<img width="500" alt="UserLength" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot04.png">
+
+6. Although ride lengths differ, casual and members ride the similar distances.
+<img width="500" alt="UserDistance" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot05.png">
+
+7. Cyclistic has far less riders of both types during colder months.
+<img width="500" alt="2024Demand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot06.png">
+
+8. Casual riders steadly use bikes more over the course of the day, but there is a sharp influx of member riders between 5-8am and 2-5pm.
+<img width="500" alt="24hDemand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot07.png">
+
+
+Our key takeaways from these observations are:
+1. Casual riders use the bikes for leisure over weekends.
+2. Annual members use the bikes to commute.
+
+### Act 🔨
+Based on our analysis, my three recommendations to convert casual riders to become annual members would be:
+
+1. Offer weekend ride promotions to annual members. This would:
+  * Encourage annual members to ride over weekends.
+  * Casual riders to consider becoming annual members as they prefer weekend rides.
+2. Give annual members peak time discounts. This may attract casual riders to consider commuting to and from work in the morning and evenings as annual members.
+3. Advertise Cyclistic services around stations less used by casual riders. It is likely (due to most casual riders embarking and stopping at one station) many casual riders or pedestrians are unaware there is an annual member service.
+
+### Conclusion 📈
+
+This analysis provides valuable insights into the preferences and behaviors of Cyclistic's annual members and casual riders. By tailoring strategies to the identified differences and preferences, Cyclistic can effectively convert casual riders into potential annual members.
 
 

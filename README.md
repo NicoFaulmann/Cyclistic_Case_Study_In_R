@@ -65,7 +65,7 @@ Script:
 ### 5. Share 📨
 We've completed our analysis and we are now ready to share our findings.
 
-#We can export our csv file for later use with the following:
+We can export our csv file for later use with the following:
 write.csv(bikedata_2024_clean, 'Bikedata_2024_Clean.csv')
 
 We can use the csv file to create a dashboard in tableau to show our findings to the stakeholders; however, we used R not only to manipulate this large dataset but to also create visualisations for presentation purposes. Having our visualisations neatly labeled with a consistent theme, we can easily compile and present this as a powerpoint.

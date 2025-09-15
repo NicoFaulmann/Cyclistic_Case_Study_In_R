@@ -84,7 +84,7 @@ During our analysis, we've made a couple observations:
 <img width="500" alt="WeekdayDemand" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot02.png">
 
 4. Annual members have their most used 'Start' and 'End' stations spread, while casual riders use Streeter Dr & Grave Ave as a popular start and end.
-<img width="500" alt="StationPopularity" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot03.png">
+<img width="600" alt="StationPopularity" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot03.png">
 
 5. Casual riders have longer ride lengths on both the higher and lower ends and are overall 5mins longer on average.
 <img width="500" alt="UserLength" src="https://github.com/NicoFaulmann/Cyclistic_Case_Study_In_R/blob/main/assets/Rplot04.png">
